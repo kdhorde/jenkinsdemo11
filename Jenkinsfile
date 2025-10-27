@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Install dependencies'){
         steps{
-           bat "-m pip install -r requirements.txt" 
+           bat "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -m pip install -r requirements.txt" 
         }
     }
 
