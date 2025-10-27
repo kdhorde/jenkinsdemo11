@@ -1,5 +1,5 @@
 pipeline {
- agent any {
+ agent any 
   stages{
     stage('checkout code'){
         steps{
@@ -11,8 +11,6 @@ pipeline {
            bat "python extract.py" 
         }
     }
-   
-  }
 
  }
 
